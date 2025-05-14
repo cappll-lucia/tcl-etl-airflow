@@ -1,0 +1,2125 @@
+[2025-05-14T00:00:02.100+0000] {processor.py:154} INFO - Started process (PID=45595) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:00:02.101+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:00:02.101+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:00:02.101+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:00:02.385+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:00:02.384+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:00:02.385+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:00:02.393+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.296 seconds
+[2025-05-14T00:00:32.862+0000] {processor.py:154} INFO - Started process (PID=45659) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:00:32.863+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:00:32.863+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:00:32.863+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:00:33.047+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:00:33.046+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:00:33.047+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:00:33.053+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.194 seconds
+[2025-05-14T00:01:03.605+0000] {processor.py:154} INFO - Started process (PID=45723) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:01:03.606+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:01:03.606+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:01:03.606+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:01:03.814+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:01:03.813+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:01:03.815+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:01:03.825+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.223 seconds
+[2025-05-14T00:01:34.457+0000] {processor.py:154} INFO - Started process (PID=45779) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:01:34.458+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:01:34.459+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:01:34.459+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:01:34.648+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:01:34.647+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:01:34.649+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:01:34.656+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.203 seconds
+[2025-05-14T00:02:05.173+0000] {processor.py:154} INFO - Started process (PID=45844) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:02:05.173+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:02:05.173+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:02:05.173+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:02:05.399+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:02:05.398+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:02:05.399+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:02:05.409+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.238 seconds
+[2025-05-14T00:02:35.840+0000] {processor.py:154} INFO - Started process (PID=45909) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:02:35.841+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:02:35.842+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:02:35.842+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:02:36.053+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:02:36.051+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:02:36.054+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:02:36.065+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.227 seconds
+[2025-05-14T00:03:06.506+0000] {processor.py:154} INFO - Started process (PID=45973) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:03:06.507+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:03:06.507+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:03:06.507+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:03:06.696+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:03:06.695+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:03:06.697+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:03:06.708+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.206 seconds
+[2025-05-14T00:03:37.112+0000] {processor.py:154} INFO - Started process (PID=46038) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:03:37.113+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:03:37.113+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:03:37.113+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:03:37.293+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:03:37.292+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:03:37.293+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:03:37.302+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.195 seconds
+[2025-05-14T00:04:07.834+0000] {processor.py:154} INFO - Started process (PID=46103) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:04:07.835+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:04:07.835+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:04:07.835+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:04:08.005+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:04:08.004+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:04:08.005+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:04:08.012+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.180 seconds
+[2025-05-14T00:04:38.502+0000] {processor.py:154} INFO - Started process (PID=46168) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:04:38.503+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:04:38.503+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:04:38.503+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:04:38.685+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:04:38.684+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:04:38.685+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:04:38.694+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.194 seconds
+[2025-05-14T00:05:09.226+0000] {processor.py:154} INFO - Started process (PID=46233) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:05:09.229+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:05:09.229+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:05:09.229+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:05:09.445+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:05:09.443+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:05:09.446+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:05:09.456+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.233 seconds
+[2025-05-14T00:05:39.936+0000] {processor.py:154} INFO - Started process (PID=46297) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:05:39.936+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:05:39.937+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:05:39.937+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:05:40.114+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:05:40.113+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:05:40.114+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:05:40.123+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.190 seconds
+[2025-05-14T00:06:10.511+0000] {processor.py:154} INFO - Started process (PID=46362) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:06:10.512+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:06:10.513+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:06:10.513+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:06:10.706+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:06:10.705+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:06:10.706+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:06:10.716+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.207 seconds
+[2025-05-14T00:06:41.259+0000] {processor.py:154} INFO - Started process (PID=46418) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:06:41.259+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:06:41.260+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:06:41.260+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:06:41.488+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:06:41.487+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:06:41.488+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:06:41.498+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.243 seconds
+[2025-05-14T00:07:11.963+0000] {processor.py:154} INFO - Started process (PID=46482) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:07:11.964+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:07:11.965+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:07:11.965+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:07:12.147+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:07:12.145+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:07:12.148+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:07:12.154+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.193 seconds
+[2025-05-14T00:07:42.660+0000] {processor.py:154} INFO - Started process (PID=46547) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:07:42.661+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:07:42.662+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:07:42.661+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:07:42.890+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:07:42.889+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:07:42.890+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:07:42.900+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.244 seconds
+[2025-05-14T00:08:13.448+0000] {processor.py:154} INFO - Started process (PID=46611) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:08:13.449+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:08:13.450+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:08:13.449+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:08:13.647+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:08:13.646+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:08:13.647+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:08:13.655+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.212 seconds
+[2025-05-14T00:08:44.090+0000] {processor.py:154} INFO - Started process (PID=46676) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:08:44.095+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:08:44.096+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:08:44.096+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:08:44.279+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:08:44.279+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:08:44.280+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:08:44.288+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.201 seconds
+[2025-05-14T00:09:14.806+0000] {processor.py:154} INFO - Started process (PID=46741) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:09:14.807+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:09:14.807+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:09:14.807+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:09:14.986+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:09:14.985+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:09:14.987+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:09:14.995+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.192 seconds
+[2025-05-14T00:09:45.476+0000] {processor.py:154} INFO - Started process (PID=46806) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:09:45.477+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:09:45.477+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:09:45.477+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:09:45.675+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:09:45.674+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:09:45.675+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:09:45.683+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.209 seconds
+[2025-05-14T00:10:16.241+0000] {processor.py:154} INFO - Started process (PID=46870) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:10:16.242+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:10:16.243+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:10:16.243+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:10:16.433+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:10:16.433+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:10:16.433+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:10:16.440+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.203 seconds
+[2025-05-14T00:10:46.951+0000] {processor.py:154} INFO - Started process (PID=46935) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:10:46.952+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:10:46.952+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:10:46.952+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:10:47.154+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:10:47.153+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:10:47.155+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:10:47.163+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.215 seconds
+[2025-05-14T00:11:17.730+0000] {processor.py:154} INFO - Started process (PID=46998) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:11:17.731+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:11:17.731+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:11:17.731+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:11:17.919+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:11:17.917+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:11:17.919+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:11:17.935+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.206 seconds
+[2025-05-14T00:11:48.433+0000] {processor.py:154} INFO - Started process (PID=47054) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:11:48.433+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:11:48.434+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:11:48.434+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:11:48.618+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:11:48.617+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:11:48.618+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:11:48.627+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.199 seconds
+[2025-05-14T00:12:19.131+0000] {processor.py:154} INFO - Started process (PID=47119) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:12:19.131+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:12:19.132+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:12:19.132+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:12:19.306+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:12:19.306+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:12:19.307+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:12:19.313+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.185 seconds
+[2025-05-14T00:12:49.901+0000] {processor.py:154} INFO - Started process (PID=47184) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:12:49.902+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:12:49.902+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:12:49.902+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:12:50.080+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:12:50.079+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:12:50.081+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:12:50.091+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.191 seconds
+[2025-05-14T00:13:20.663+0000] {processor.py:154} INFO - Started process (PID=47248) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:13:20.664+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:13:20.665+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:13:20.665+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:13:20.849+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:13:20.848+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:13:20.849+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:13:20.857+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.196 seconds
+[2025-05-14T00:13:51.323+0000] {processor.py:154} INFO - Started process (PID=47312) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:13:51.324+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:13:51.324+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:13:51.324+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:13:51.541+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:13:51.538+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:13:51.542+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:13:51.550+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.231 seconds
+[2025-05-14T00:14:21.946+0000] {processor.py:154} INFO - Started process (PID=47377) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:14:21.947+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:14:21.947+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:14:21.947+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:14:22.137+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:14:22.135+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:14:22.138+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:14:22.147+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.205 seconds
+[2025-05-14T00:14:52.596+0000] {processor.py:154} INFO - Started process (PID=47442) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:14:52.596+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:14:52.597+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:14:52.597+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:14:52.771+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:14:52.770+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:14:52.771+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:14:52.779+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.186 seconds
+[2025-05-14T00:15:23.222+0000] {processor.py:154} INFO - Started process (PID=47507) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:15:23.223+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:15:23.224+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:15:23.224+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:15:23.398+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:15:23.396+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:15:23.398+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:15:23.406+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.187 seconds
+[2025-05-14T00:15:53.850+0000] {processor.py:154} INFO - Started process (PID=47572) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:15:53.851+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:15:53.851+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:15:53.851+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:15:54.033+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:15:54.032+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:15:54.033+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:15:54.039+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.191 seconds
+[2025-05-14T00:16:24.430+0000] {processor.py:154} INFO - Started process (PID=47637) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:16:24.430+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:16:24.431+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:16:24.431+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:16:24.610+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:16:24.609+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:16:24.610+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:16:24.617+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.190 seconds
+[2025-05-14T00:16:55.080+0000] {processor.py:154} INFO - Started process (PID=47698) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:16:55.080+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:16:55.081+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:16:55.081+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:16:55.270+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:16:55.268+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:16:55.270+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:16:55.281+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.203 seconds
+[2025-05-14T00:17:25.947+0000] {processor.py:154} INFO - Started process (PID=47757) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:17:25.948+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:17:25.948+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:17:25.948+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:17:26.125+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:17:26.124+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:17:26.125+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:17:26.135+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.193 seconds
+[2025-05-14T00:17:56.560+0000] {processor.py:154} INFO - Started process (PID=47822) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:17:56.561+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:17:56.561+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:17:56.561+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:17:56.740+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:17:56.739+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:17:56.740+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:17:56.747+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.190 seconds
+[2025-05-14T00:18:27.283+0000] {processor.py:154} INFO - Started process (PID=47886) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:18:27.284+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:18:27.284+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:18:27.284+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:18:27.498+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:18:27.497+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:18:27.498+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:18:27.506+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.227 seconds
+[2025-05-14T00:34:23.235+0000] {processor.py:154} INFO - Started process (PID=47918) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:34:23.236+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:34:23.237+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:34:23.237+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:34:23.465+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:34:23.463+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:34:23.466+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:34:23.477+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.246 seconds
+[2025-05-14T00:34:54.251+0000] {processor.py:154} INFO - Started process (PID=47983) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:34:54.252+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:34:54.253+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:34:54.253+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:34:54.471+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:34:54.470+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:34:54.472+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:34:54.484+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.236 seconds
+[2025-05-14T00:47:05.556+0000] {processor.py:154} INFO - Started process (PID=48048) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:47:05.556+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:47:05.557+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:47:05.557+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:47:05.829+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:47:05.827+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:47:05.829+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:47:05.844+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.290 seconds
+[2025-05-14T00:58:51.277+0000] {processor.py:154} INFO - Started process (PID=48111) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:58:51.277+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T00:58:51.278+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:58:51.278+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:58:51.478+0000] {logging_mixin.py:120} INFO - [2025-05-14T00:58:51.477+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T00:58:51.478+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T00:58:51.485+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.211 seconds
+[2025-05-14T01:31:30.753+0000] {processor.py:154} INFO - Started process (PID=48167) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:31:30.763+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:31:30.769+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:31:30.768+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:31:32.419+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:31:32.416+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:31:32.421+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:31:32.459+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 1.771 seconds
+[2025-05-14T01:32:03.245+0000] {processor.py:154} INFO - Started process (PID=48234) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:32:03.246+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:32:03.246+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:32:03.246+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:32:03.495+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:32:03.494+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:32:03.495+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:32:03.508+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.267 seconds
+[2025-05-14T01:32:34.015+0000] {processor.py:154} INFO - Started process (PID=48299) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:32:34.016+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:32:34.017+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:32:34.016+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:32:34.198+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:32:34.196+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:32:34.199+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:32:34.206+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.193 seconds
+[2025-05-14T01:33:04.775+0000] {processor.py:154} INFO - Started process (PID=48363) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:33:04.776+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:33:04.777+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:33:04.777+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:33:04.960+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:33:04.960+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:33:04.960+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:33:04.967+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.195 seconds
+[2025-05-14T01:33:35.619+0000] {processor.py:154} INFO - Started process (PID=48427) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:33:35.619+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:33:35.620+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:33:35.620+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:33:35.812+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:33:35.809+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:33:35.813+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:33:35.823+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.207 seconds
+[2025-05-14T01:34:05.842+0000] {processor.py:154} INFO - Started process (PID=48492) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:34:05.842+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:34:05.843+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:34:05.843+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:34:05.994+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:34:05.993+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:34:05.994+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:34:06.001+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.161 seconds
+[2025-05-14T01:34:36.709+0000] {processor.py:154} INFO - Started process (PID=48556) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:34:36.711+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:34:36.712+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:34:36.711+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:34:36.895+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:34:36.894+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:34:36.895+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:34:36.902+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.201 seconds
+[2025-05-14T01:35:07.302+0000] {processor.py:154} INFO - Started process (PID=48621) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:35:07.302+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:35:07.303+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:35:07.303+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:35:07.481+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:35:07.480+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:35:07.482+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:35:07.490+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.190 seconds
+[2025-05-14T01:35:37.539+0000] {processor.py:154} INFO - Started process (PID=48686) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:35:37.541+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:35:37.541+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:35:37.541+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:35:37.734+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:35:37.731+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:35:37.736+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:35:37.743+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.207 seconds
+[2025-05-14T01:36:08.554+0000] {processor.py:154} INFO - Started process (PID=48751) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:36:08.555+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:36:08.555+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:36:08.555+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:36:08.734+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:36:08.733+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:36:08.734+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:36:08.743+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.191 seconds
+[2025-05-14T01:36:39.286+0000] {processor.py:154} INFO - Started process (PID=48814) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:36:39.287+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:36:39.287+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:36:39.287+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:36:39.482+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:36:39.480+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:36:39.482+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:36:39.491+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.207 seconds
+[2025-05-14T01:37:10.057+0000] {processor.py:154} INFO - Started process (PID=48872) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:37:10.058+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:37:10.059+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:37:10.059+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:37:10.248+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:37:10.247+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:37:10.248+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:37:10.257+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.204 seconds
+[2025-05-14T01:37:40.312+0000] {processor.py:154} INFO - Started process (PID=48936) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:37:40.313+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:37:40.315+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:37:40.315+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:37:40.507+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:37:40.506+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:37:40.507+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:37:40.516+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.207 seconds
+[2025-05-14T01:38:11.151+0000] {processor.py:154} INFO - Started process (PID=49001) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:38:11.151+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:38:11.152+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:38:11.152+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:38:11.350+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:38:11.349+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:38:11.350+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:38:11.358+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.212 seconds
+[2025-05-14T01:38:41.861+0000] {processor.py:154} INFO - Started process (PID=49066) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:38:41.862+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:38:41.863+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:38:41.862+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:38:42.052+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:38:42.051+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:38:42.052+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:38:42.061+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.205 seconds
+[2025-05-14T01:39:12.471+0000] {processor.py:154} INFO - Started process (PID=49131) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:39:12.472+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:39:12.472+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:39:12.472+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:39:12.658+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:39:12.657+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:39:12.658+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:39:12.668+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.201 seconds
+[2025-05-14T01:39:42.756+0000] {processor.py:154} INFO - Started process (PID=49196) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:39:42.757+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:39:42.758+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:39:42.758+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:39:42.934+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:39:42.934+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:39:42.934+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:39:42.945+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.192 seconds
+[2025-05-14T01:40:13.506+0000] {processor.py:154} INFO - Started process (PID=49261) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:40:13.507+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:40:13.508+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:40:13.508+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:40:13.682+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:40:13.681+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:40:13.683+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:40:13.690+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.187 seconds
+[2025-05-14T01:40:44.226+0000] {processor.py:154} INFO - Started process (PID=49326) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:40:44.227+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:40:44.228+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:40:44.228+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:40:44.398+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:40:44.397+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:40:44.398+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:40:44.405+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.182 seconds
+[2025-05-14T01:41:14.840+0000] {processor.py:154} INFO - Started process (PID=49391) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:41:14.841+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:41:14.842+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:41:14.842+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:41:15.024+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:41:15.020+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:41:15.024+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:41:15.033+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.197 seconds
+[2025-05-14T01:41:45.161+0000] {processor.py:154} INFO - Started process (PID=49454) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:41:45.162+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:41:45.162+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:41:45.162+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:41:45.341+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:41:45.339+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:41:45.341+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:41:45.350+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.191 seconds
+[2025-05-14T01:42:15.640+0000] {processor.py:154} INFO - Started process (PID=49512) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:42:15.640+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:42:15.641+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:42:15.641+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:42:15.806+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:42:15.805+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:42:15.806+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:42:15.813+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.175 seconds
+[2025-05-14T01:42:46.274+0000] {processor.py:154} INFO - Started process (PID=49577) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:42:46.275+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:42:46.276+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:42:46.276+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:42:46.450+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:42:46.449+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:42:46.450+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:42:46.457+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.185 seconds
+[2025-05-14T01:43:16.913+0000] {processor.py:154} INFO - Started process (PID=49641) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:43:16.914+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:43:16.914+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:43:16.914+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:43:17.096+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:43:17.095+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:43:17.096+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:43:17.103+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.193 seconds
+[2025-05-14T01:43:47.214+0000] {processor.py:154} INFO - Started process (PID=49704) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:43:47.216+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:43:47.217+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:43:47.217+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:43:47.413+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:43:47.413+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:43:47.414+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:43:47.421+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.210 seconds
+[2025-05-14T01:44:17.818+0000] {processor.py:154} INFO - Started process (PID=49768) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:44:17.818+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:44:17.819+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:44:17.819+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:44:17.997+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:44:17.995+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:44:17.997+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:44:18.004+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.189 seconds
+[2025-05-14T01:44:48.393+0000] {processor.py:154} INFO - Started process (PID=49833) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:44:48.394+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:44:48.395+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:44:48.395+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:44:48.572+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:44:48.571+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:44:48.572+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:44:48.579+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.190 seconds
+[2025-05-14T01:45:18.663+0000] {processor.py:154} INFO - Started process (PID=49900) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:45:18.664+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:45:18.664+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:45:18.664+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:45:18.807+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:45:18.806+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:45:18.807+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:45:18.813+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.151 seconds
+[2025-05-14T01:45:48.846+0000] {processor.py:154} INFO - Started process (PID=49959) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:45:48.846+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:45:48.847+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:45:48.847+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:45:49.024+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:45:49.023+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:45:49.025+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:45:49.031+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.188 seconds
+[2025-05-14T01:46:19.415+0000] {processor.py:154} INFO - Started process (PID=50015) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:46:19.416+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:46:19.416+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:46:19.416+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:46:19.598+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:46:19.597+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:46:19.598+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:46:19.606+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.193 seconds
+[2025-05-14T01:46:50.108+0000] {processor.py:154} INFO - Started process (PID=50080) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:46:50.109+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:46:50.110+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:46:50.110+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:46:50.314+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:46:50.312+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:46:50.315+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:46:50.323+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.217 seconds
+[2025-05-14T01:47:21.079+0000] {processor.py:154} INFO - Started process (PID=50144) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:47:21.080+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:47:21.080+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:47:21.080+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:47:21.282+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:47:21.280+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:47:21.283+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:47:21.293+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.218 seconds
+[2025-05-14T01:47:51.681+0000] {processor.py:154} INFO - Started process (PID=50209) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:47:51.682+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:47:51.682+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:47:51.682+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:47:51.875+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:47:51.874+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:47:51.875+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:47:51.882+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.204 seconds
+[2025-05-14T01:48:22.255+0000] {processor.py:154} INFO - Started process (PID=50274) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:48:22.256+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:48:22.257+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:48:22.256+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:48:22.451+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:48:22.448+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:48:22.452+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:48:22.459+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.208 seconds
+[2025-05-14T01:48:52.763+0000] {processor.py:154} INFO - Started process (PID=50339) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:48:52.763+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:48:52.764+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:48:52.764+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:48:52.939+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:48:52.938+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:48:52.939+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:48:52.947+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.187 seconds
+[2025-05-14T01:49:23.653+0000] {processor.py:154} INFO - Started process (PID=50404) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:49:23.654+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:49:23.655+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:49:23.655+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:49:23.862+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:49:23.861+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:49:23.862+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:49:23.870+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.220 seconds
+[2025-05-14T01:49:54.182+0000] {processor.py:154} INFO - Started process (PID=50469) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:49:54.184+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:49:54.184+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:49:54.184+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:49:54.435+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:49:54.434+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:49:54.435+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:49:54.443+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.267 seconds
+[2025-05-14T01:50:25.014+0000] {processor.py:154} INFO - Started process (PID=50534) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:50:25.015+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:50:25.016+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:50:25.015+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:50:25.197+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:50:25.196+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:50:25.197+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:50:25.204+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.195 seconds
+[2025-05-14T01:50:55.637+0000] {processor.py:154} INFO - Started process (PID=50599) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:50:55.638+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:50:55.638+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:50:55.638+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:50:55.852+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:50:55.849+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:50:55.852+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:50:55.861+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.227 seconds
+[2025-05-14T01:51:25.899+0000] {processor.py:154} INFO - Started process (PID=50662) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:51:25.899+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:51:25.900+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:51:25.900+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:51:26.092+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:51:26.092+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:51:26.093+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:51:26.101+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.204 seconds
+[2025-05-14T01:51:56.331+0000] {processor.py:154} INFO - Started process (PID=50720) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:51:56.332+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:51:56.333+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:51:56.333+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:51:56.551+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:51:56.550+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:51:56.551+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:51:56.558+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.229 seconds
+[2025-05-14T01:52:27.024+0000] {processor.py:154} INFO - Started process (PID=50785) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:27.025+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:52:27.025+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:27.025+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:27.220+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:27.219+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:52:27.220+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:27.230+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.208 seconds
+[2025-05-14T01:52:38.440+0000] {processor.py:154} INFO - Started process (PID=50832) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:38.441+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:52:38.442+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:38.442+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:38.601+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:38.601+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:52:38.602+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:38.609+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.172 seconds
+[2025-05-14T01:52:39.634+0000] {processor.py:154} INFO - Started process (PID=50834) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:39.636+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:52:39.636+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:39.636+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:39.839+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:39.839+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:52:39.840+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:39.852+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.222 seconds
+[2025-05-14T01:52:47.724+0000] {processor.py:154} INFO - Started process (PID=50845) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:47.726+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:52:47.727+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:47.727+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:47.891+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:47.890+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:52:47.891+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:47.898+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.177 seconds
+[2025-05-14T01:52:48.919+0000] {processor.py:154} INFO - Started process (PID=50847) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:48.919+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:52:48.920+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:48.920+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:49.082+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:49.081+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:52:49.082+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:49.089+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.172 seconds
+[2025-05-14T01:52:55.149+0000] {processor.py:154} INFO - Started process (PID=50858) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:55.149+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:52:55.150+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:55.150+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:55.322+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:52:55.321+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:52:55.322+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:52:55.329+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.183 seconds
+[2025-05-14T01:53:25.379+0000] {processor.py:154} INFO - Started process (PID=50922) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:25.380+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:53:25.380+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:53:25.380+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:25.550+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:53:25.548+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:53:25.550+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:25.557+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.181 seconds
+[2025-05-14T01:53:33.730+0000] {processor.py:154} INFO - Started process (PID=50952) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:33.731+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:53:33.732+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:53:33.732+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:33.929+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:53:33.928+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:53:33.929+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:33.938+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.212 seconds
+[2025-05-14T01:53:36.040+0000] {processor.py:154} INFO - Started process (PID=50957) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:36.041+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:53:36.041+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:53:36.041+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:36.195+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:53:36.195+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_language
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:53:36.196+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:36.201+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.165 seconds
+[2025-05-14T01:53:58.692+0000] {processor.py:154} INFO - Started process (PID=51004) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:58.693+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:53:58.694+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:53:58.694+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:58.891+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:53:58.890+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:53:58.891+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:53:58.898+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.207 seconds
+[2025-05-14T01:54:02.972+0000] {processor.py:154} INFO - Started process (PID=51010) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:02.973+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:02.973+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:02.973+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:03.149+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:03.148+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:03.149+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:03.156+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.186 seconds
+[2025-05-14T01:54:05.220+0000] {processor.py:154} INFO - Started process (PID=51026) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:05.220+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:05.221+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:05.221+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:05.392+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:05.392+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:05.393+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:05.400+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.183 seconds
+[2025-05-14T01:54:06.256+0000] {processor.py:154} INFO - Started process (PID=51028) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:06.257+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:06.257+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:06.257+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:06.404+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:06.403+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:06.404+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:06.411+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.156 seconds
+[2025-05-14T01:54:07.436+0000] {processor.py:154} INFO - Started process (PID=51030) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:07.437+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:07.439+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:07.439+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:07.627+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:07.626+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:07.627+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:07.635+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.202 seconds
+[2025-05-14T01:54:12.060+0000] {processor.py:154} INFO - Started process (PID=51046) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:12.061+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:12.061+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:12.061+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:12.237+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:12.236+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:12.237+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:12.244+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.185 seconds
+[2025-05-14T01:54:14.285+0000] {processor.py:154} INFO - Started process (PID=51048) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:14.286+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:14.287+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:14.286+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:14.454+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:14.454+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:14.455+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:14.461+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.179 seconds
+[2025-05-14T01:54:16.484+0000] {processor.py:154} INFO - Started process (PID=51059) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:16.484+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:16.484+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:16.484+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:16.654+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:16.653+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:16.654+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:16.661+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.179 seconds
+[2025-05-14T01:54:19.714+0000] {processor.py:154} INFO - Started process (PID=51061) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:19.715+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:19.716+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:19.716+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:19.915+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:19.915+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:19.916+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:19.922+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.212 seconds
+[2025-05-14T01:54:23.770+0000] {processor.py:154} INFO - Started process (PID=51063) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:23.771+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:23.772+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:23.771+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:23.929+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:23.928+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:23.929+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:23.936+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.169 seconds
+[2025-05-14T01:54:54.431+0000] {processor.py:154} INFO - Started process (PID=51128) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:54.432+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:54:54.433+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:54.433+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:54.592+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:54:54.592+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:54:54.593+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:54:54.599+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.170 seconds
+[2025-05-14T01:55:24.856+0000] {processor.py:154} INFO - Started process (PID=51193) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:55:24.859+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:55:24.860+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:55:24.860+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:55:25.023+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:55:25.022+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:55:25.023+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:55:25.030+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.177 seconds
+[2025-05-14T01:55:55.482+0000] {processor.py:154} INFO - Started process (PID=51258) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:55:55.483+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:55:55.484+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:55:55.484+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:55:55.640+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:55:55.639+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:55:55.640+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:55:55.647+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.167 seconds
+[2025-05-14T01:56:26.088+0000] {processor.py:154} INFO - Started process (PID=51323) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:26.089+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:56:26.089+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:56:26.089+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:26.258+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:56:26.257+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:56:26.258+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:26.266+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.181 seconds
+[2025-05-14T01:56:37.961+0000] {processor.py:154} INFO - Started process (PID=51353) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:37.968+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:56:37.969+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:56:37.969+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:38.142+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:56:38.141+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:56:38.142+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:38.151+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.192 seconds
+[2025-05-14T01:56:40.969+0000] {processor.py:154} INFO - Started process (PID=51372) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:40.970+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:56:40.970+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:56:40.970+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:41.134+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:56:41.133+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:56:41.134+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:56:41.141+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.174 seconds
+[2025-05-14T01:57:11.463+0000] {processor.py:154} INFO - Started process (PID=51436) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:57:11.463+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:57:11.464+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:57:11.464+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:57:11.610+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:57:11.609+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:57:11.610+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:57:11.616+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.155 seconds
+[2025-05-14T01:57:41.736+0000] {processor.py:154} INFO - Started process (PID=51494) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:57:41.737+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:57:41.737+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:57:41.737+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:57:41.916+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:57:41.915+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:57:41.916+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:57:41.925+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.190 seconds
+[2025-05-14T01:58:12.121+0000] {processor.py:154} INFO - Started process (PID=51551) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:58:12.122+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:58:12.122+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:58:12.122+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:58:12.304+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:58:12.302+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:58:12.305+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:58:12.311+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.193 seconds
+[2025-05-14T01:58:42.878+0000] {processor.py:154} INFO - Started process (PID=51616) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:58:42.879+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:58:42.880+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:58:42.880+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:58:43.075+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:58:43.071+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:58:43.076+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:58:43.085+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.210 seconds
+[2025-05-14T01:59:13.357+0000] {processor.py:154} INFO - Started process (PID=51680) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:59:13.358+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:59:13.359+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:59:13.359+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:59:13.540+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:59:13.539+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:59:13.540+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:59:13.548+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.194 seconds
+[2025-05-14T01:59:43.902+0000] {processor.py:154} INFO - Started process (PID=51745) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:59:43.903+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T01:59:43.904+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:59:43.904+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:59:44.104+0000] {logging_mixin.py:120} INFO - [2025-05-14T01:59:44.104+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T01:59:44.105+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T01:59:44.116+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.216 seconds
+[2025-05-14T02:00:14.748+0000] {processor.py:154} INFO - Started process (PID=51810) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:00:14.749+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:00:14.750+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:00:14.750+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:00:14.933+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:00:14.932+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:00:14.933+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:00:14.941+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.196 seconds
+[2025-05-14T02:00:36.966+0000] {processor.py:154} INFO - Started process (PID=51857) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:00:36.966+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:00:36.967+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:00:36.967+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:00:37.121+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:00:37.121+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:00:37.122+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:00:37.129+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.165 seconds
+[2025-05-14T02:01:02.363+0000] {processor.py:154} INFO - Started process (PID=51899) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:02.364+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:01:02.365+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:02.365+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:02.370+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:02.369+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6
+    from functions.utils import extract_username, get_course_data,
+                               ^
+SyntaxError: trailing comma not allowed without surrounding parentheses
+[2025-05-14T02:01:02.370+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:02.383+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.022 seconds
+[2025-05-14T02:01:06.415+0000] {processor.py:154} INFO - Started process (PID=51900) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:06.416+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:01:06.417+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:06.417+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:06.633+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:06.632+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:01:06.633+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:06.642+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.231 seconds
+[2025-05-14T02:01:11.751+0000] {processor.py:154} INFO - Started process (PID=51926) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:11.752+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:01:11.752+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:11.752+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:11.924+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:11.923+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:01:11.924+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:11.930+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.184 seconds
+[2025-05-14T02:01:14.230+0000] {processor.py:154} INFO - Started process (PID=51934) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:14.231+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:01:14.232+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:14.232+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:14.406+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:14.405+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:01:14.406+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:14.413+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.184 seconds
+[2025-05-14T02:01:21.287+0000] {processor.py:154} INFO - Started process (PID=51959) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:21.287+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:01:21.288+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:21.288+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:21.291+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:21.290+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6
+    from functions.utils import extract_username, get_course_data, in
+                                                                    ^
+SyntaxError: invalid syntax
+[2025-05-14T02:01:21.291+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:21.302+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.018 seconds
+[2025-05-14T02:01:25.331+0000] {processor.py:154} INFO - Started process (PID=51960) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:25.332+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:01:25.332+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:25.332+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:25.496+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:25.496+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:01:25.497+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:25.503+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.176 seconds
+[2025-05-14T02:01:26.530+0000] {processor.py:154} INFO - Started process (PID=51962) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:26.531+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:01:26.531+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:26.531+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:26.715+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:26.714+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:01:26.715+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:26.722+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.195 seconds
+[2025-05-14T02:01:56.786+0000] {processor.py:154} INFO - Started process (PID=52027) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:56.787+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:01:56.788+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:56.788+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:56.957+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:01:56.956+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:01:56.957+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:01:56.964+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.181 seconds
+[2025-05-14T02:02:27.377+0000] {processor.py:154} INFO - Started process (PID=52091) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:02:27.378+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:02:27.379+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:02:27.379+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:02:27.558+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:02:27.557+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:02:27.558+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:02:27.565+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.191 seconds
+[2025-05-14T02:02:57.983+0000] {processor.py:154} INFO - Started process (PID=52155) to work on /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:02:57.984+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_migrate_single_file.py for tasks to queue
+[2025-05-14T02:02:57.985+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:02:57.985+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:02:58.257+0000] {logging_mixin.py:120} INFO - [2025-05-14T02:02:58.255+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/dag_migrate_single_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_migrate_single_file.py", line 6, in <module>
+    from functions.utils import extract_username, get_course_data
+  File "/opt/airflow/dags/functions/utils.py", line 44
+    if filename := df[0].get('filename'):
+                 ^
+SyntaxError: invalid syntax
+[2025-05-14T02:02:58.257+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_migrate_single_file.py
+[2025-05-14T02:02:58.270+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_migrate_single_file.py took 0.289 seconds
