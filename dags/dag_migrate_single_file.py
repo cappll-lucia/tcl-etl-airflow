@@ -16,7 +16,9 @@ with DAG(
     @task
     def parse_tsv_to_df(**context):
         file_path = context["dag_run"].conf["file_path"]
+        print(f"Attempting to read: {file_path}")
         df = pd.read_csv(file_path, sep='\t')
+        df = df.astype(object).where(pd.notnull(df), None)
         return df.to_dict(orient='records')
     
     @task 
@@ -37,7 +39,7 @@ with DAG(
             if students_df.empty:
                 raise ValueError(f"No student found for: [ filename:{filename} | username: {username} ]")
             else:
-                data = pd.DataFrame({
+                data = {
                     'email': students_df.iloc[0]['email'],
                     'first_name': students_df.iloc[0]['first_name'],
                     'last_name': students_df.iloc[0]['last_name'],
@@ -46,7 +48,7 @@ with DAG(
                     'country': students_df.iloc[0]['country'],
                     'student_since': students_df.iloc[0]['student_since'],
                     'age_group': students_df.iloc[0]['age_group'],
-                })
+                }
                 student_id = insert_student_data(data)
         return student_id
     

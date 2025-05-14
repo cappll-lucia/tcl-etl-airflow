@@ -26,17 +26,39 @@ def get_students_data_id_by_username(username: str):
     return records[0][0] if records else None
 
 
-def insert_student_data(df: dict):
+def insert_student_data(student_data: dict):
     # TODO: change to production
     hook = PostgresHook(postgres_conn_id='dev-iboux')
-    query = """
-        INSERT INTO student_data ( data)
-        VALUES (%s)
-        RERURNING id
-    """
-    hook.run(query, parameters=(df))
-    return hook.get_first(query, parameters=(df,))[0]
     
+    # Convert date to proper format
+    if student_data.get('student_since'):
+        student_data['student_since'] = pd.to_datetime(student_data['student_since'], format='%d-%m-%Y').strftime('%Y-%m-%d')
+    
+    query = """
+        INSERT INTO student_data (
+            email,
+            first_name,
+            last_name,
+            comm_language,
+            lc_username,
+            country,
+            student_since,
+            age_group
+        )
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+        RETURNING id
+    """
+    parameters = tuple(student_data[field] for field in [
+        'email', 'first_name', 'last_name',
+        'comm_language', 'lc_username', 'country',
+        'student_since', 'age_group'
+    ])
+
+    hook.run(query, parameters=parameters)
+    inserted_id = hook.get_first("SELECT MAX(id) FROM student_data")[0]
+    return inserted_id
+
+
 
 def insert_course_data(course_data: dict, student_id: int):
     # TODO: change to production
@@ -46,5 +68,4 @@ def insert_course_data(course_data: dict, student_id: int):
         VALUES (%s, %s)
         RETURNING id
     """
-    hook.run(query, parameters=(student_id, course_data))
-    return hook.get_first(query, parameters=(course_data,)[0])
+    return hook.get_first(query, parameters=(student_id, course_data))[0]

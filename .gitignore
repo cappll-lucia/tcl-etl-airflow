@@ -1,3 +1,6 @@
 students_PRODUCTION_IbouxDB202505070926.csv
 .env
- Chiara Croci CH  chiara_croci.tsv
+Chiara Croci CH  chiara_croci.tsv
+docker-compose.override.yml
+/logs/*
+/logs

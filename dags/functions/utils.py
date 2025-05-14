@@ -41,8 +41,10 @@ def get_course_language(df: pd.DataFrame) -> str:
         
     # Try filename 
     try:
-        if filename := df[0].get('filename'):
-            if lang := filename[filename.find("[") + 2:filename.find("-")].strip():
+        filename = df[0].get('filename')
+        if filename:
+            lang= filename[filename.find("[") + 2:filename.find("-")].strip()
+            if lang:
                 if lang in SUPPORTED_LANGUAGES:
                     return lang
     except (KeyError, AttributeError):
