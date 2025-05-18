@@ -253,7 +253,7 @@ services:
     # Workaround for entrypoint issue. See: https://github.com/apache/airflow/issues/16252
     command:
       - bash
-      - -c
+      - -c  
       - airflow
 
   # You can enable flower by adding "--profile flower" option e.g. docker-compose --profile flower up

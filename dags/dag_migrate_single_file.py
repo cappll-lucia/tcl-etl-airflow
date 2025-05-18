@@ -3,8 +3,9 @@ from airflow.decorators import task
 from datetime import datetime
 import pandas as pd
 from typing import List, Dict
-from functions.utils import extract_username, get_course_data
-from functions.prod_db_queries import get_students_by_username, get_students_data_id_by_username, insert_student_data, insert_course_data
+from functions.utils import extract_username, get_course_data, get_classes_data
+from functions.prod_db_queries import get_students_by_username, get_students_data_id_by_username, insert_student_data, insert_course_data, insert_classes_data
+from uuid import UUID
 
 with DAG(
     dag_id="migrate_single_file",
@@ -19,13 +20,13 @@ with DAG(
         print(f"Attempting to read: {file_path}")
         df = pd.read_csv(file_path, sep='\t')
         df = df.astype(object).where(pd.notnull(df), None)
+        print(df.columns)
         return df.to_dict(orient='records')
     
     @task 
     def extract_metadata(parsed_file: List[Dict]):
         filename = parsed_file[0].get('filename')
         username = extract_username(filename)
-
         return username, 
 
     @task 
@@ -54,10 +55,21 @@ with DAG(
     
     @task 
     def create_course(parsed_file: List[Dict], student_id: int):
-        course_data = get_course_data(parsed_file);
+        df = pd.DataFrame(parsed_file)
+        course_data = get_course_data(df)
         course_id = insert_course_data(course_data, student_id)
+        print(f"++++++ Course ID: {course_id}")
         return course_id
     
+    @task
+    def register_course_classes(parsed_file: List[Dict], course_id: UUID):
+        df = pd.DataFrame(parsed_file)
+        classes_data = get_classes_data(df)
+        insert_classes_data(classes_data, course_id)
+
     parsed_file = parse_tsv_to_df()
     student_id = sync_student_record(parsed_file)
     course_id = create_course(parsed_file, student_id)
+    register_course_classes(parsed_file, course_id)
+    
+    
