@@ -81,8 +81,14 @@ def insert_course_data(course_data: dict, student_id: int):
     parameters = (student_id,) + tuple((course_data[field] for field in [
         'language', 'class_length', 'credits_qty', 'customer_type', 'taas_school', 'is_if', 'spreadsheet_name'
     ]))
-    result = hook.get_first(query, parameters=parameters)
-    return result[0] if result else None
+
+    conn = hook.get_conn()
+    cursor = conn.cursor()
+    cursor.execute(query, parameters)
+    course_id = cursor.fetchone()[0]
+    conn.commit()
+    cursor.close()
+    return course_id
 
 def insert_classes_data(classes_data: dict, course_id: UUID):
 
@@ -94,20 +100,17 @@ def insert_classes_data(classes_data: dict, course_id: UUID):
 
     hook = PostgresHook(postgres_conn_id='dev-iboux')
 
-        # Filtrar filas vacías (sin fecha ni docente ni nivel)
     print(f"File total: {len(classes_data)}")
     classes_data = [
         row for row in classes_data
-        if any(row.get(k) for k in ['class_date', 'teacher_name', 'lesson_plan', 'level'])  # Podés ajustar los campos
+        if any(row.get(k) for k in ['class_date', 'teacher_name', 'lesson_plan', 'level'])
     ]
     print(f"With data total: {len(classes_data)}")
 
 
-    # Agregar course_id a cada clase
     for c in classes_data:
         c["course_id"] = course_id
 
-    # Definir el orden exacto de columnas
     columns = [
         "course_id", "class_number", "class_date", "teacher_name",
         "technical_instructions", "message_to_teacher", "lesson_plan",
@@ -117,7 +120,6 @@ def insert_classes_data(classes_data: dict, course_id: UUID):
         "lc_notes_open", "compensation", "family_member_name"
     ]
 
-    # Crear lista de tuplas ordenadas
     values = [
         tuple(c.get(col) for col in columns)
         for c in classes_data
@@ -126,7 +128,7 @@ def insert_classes_data(classes_data: dict, course_id: UUID):
     print(f"course_id: {course_id}")
     print("Ejemplo fila:", classes_data[0])
 
-    hook = PostgresHook(postgres_conn_id='dev-iboux')  # o tu conn_id real
+    hook = PostgresHook(postgres_conn_id='dev-iboux')
     hook.insert_rows(table="class", rows=values, target_fields=columns)
 
     

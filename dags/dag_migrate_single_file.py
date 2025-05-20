@@ -25,20 +25,21 @@ with DAG(
     
     @task 
     def extract_metadata(parsed_file: List[Dict]):
-        filename = parsed_file[0].get('filename')
-        username = extract_username(filename)
+        filename_path = parsed_file[0].get('filename_path')
+        username = extract_username(filename_path)
         return username, 
 
     @task 
     def sync_student_record(parsed_file: List[Dict]):
-        filename = parsed_file[0].get('filename')
-        username = extract_username(filename)
+        filename_path = parsed_file[0].get('filename_path')
+        username = extract_username(filename_path)
         student_id = get_students_data_id_by_username(username)
         
         if student_id is None:
             students_df = get_students_by_username(username)
             if students_df.empty:
-                raise ValueError(f"No student found for: [ filename:{filename} | username: {username} ]")
+                raise ValueError(f"No student found for: [ filename_path:{filename_path} | username: {username} ]")
+            
             else:
                 data = {
                     'email': students_df.iloc[0]['email'],
@@ -53,6 +54,8 @@ with DAG(
                 student_id = insert_student_data(data)
         return student_id
     
+
+
     @task 
     def create_course(parsed_file: List[Dict], student_id: int):
         df = pd.DataFrame(parsed_file)
