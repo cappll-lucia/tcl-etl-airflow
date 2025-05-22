@@ -6,6 +6,8 @@ from typing import List, Dict
 from functions.utils import extract_username, get_course_data, get_classes_data
 from functions.prod_db_queries import get_students_by_username, get_students_data_id_by_username, insert_student_data, insert_course_data, insert_classes_data
 from uuid import UUID
+from airflow.providers.google.cloud.hooks.gcs import GCSHook
+import io
 
 with DAG(
     dag_id="migrate_single_file",
@@ -15,19 +17,25 @@ with DAG(
 ) as dag:
     
     @task
-    def parse_tsv_to_df(**context):
-        file_path = context["dag_run"].conf["file_path"]
-        print(f"Attempting to read: {file_path}")
-        df = pd.read_csv(file_path, sep='\t')
+    def parse_tsv_from_gcs(**context):
+        bucket = context["dag_run"].conf["bucket_name"]
+        object_path = context["dag_run"].conf["object_path"]
+
+        gcs_hook = GCSHook(gcp_conn_id="gcs-systems-acc")
+        file_bytes = gcs_hook.download(bucket_name=bucket, object_name=object_path)
+
+        df = pd.read_csv(io.StringIO(file_bytes.decode("utf-8")), sep="\t")
         df = df.astype(object).where(pd.notnull(df), None)
-        print(df.columns)
-        return df.to_dict(orient='records')
+        print(f"Parsed from gs://{bucket}/{object_path} → Columns: {df.columns}")
+        return df.to_dict(orient="records")
     
+
     @task 
     def extract_metadata(parsed_file: List[Dict]):
         filename_path = parsed_file[0].get('filename_path')
         username = extract_username(filename_path)
         return username, 
+
 
     @task 
     def sync_student_record(parsed_file: List[Dict]):
@@ -55,7 +63,6 @@ with DAG(
         return student_id
     
 
-
     @task 
     def create_course(parsed_file: List[Dict], student_id: int):
         df = pd.DataFrame(parsed_file)
@@ -64,15 +71,33 @@ with DAG(
         print(f"++++++ Course ID: {course_id}")
         return course_id
     
+
     @task
     def register_course_classes(parsed_file: List[Dict], course_id: UUID):
         df = pd.DataFrame(parsed_file)
         classes_data = get_classes_data(df)
         insert_classes_data(classes_data, course_id)
 
-    parsed_file = parse_tsv_to_df()
+
+    @task
+    def mark_file_as_done(**context):
+        bucket= context['dag_run'].conf['bucket_name']
+        object_path=context['dag_run'].conf['object_path']
+        gcs_hook = GCSHook(gcp_conn_id='gcs-systems-acc')
+        done_path = f"{object_path}.done"
+
+        gcs_hook.copy(
+            source_bucket=bucket,
+            source_object=object_path,
+            destination_bucket=bucket,
+            destination_object=done_path
+        )
+        gcs_hook.delete(bucket_name=bucket, object_name=object_path)
+        print(f"DONE {object_path} → {done_path}")
+        
+
+    parsed_file = parse_tsv_from_gcs()
     student_id = sync_student_record(parsed_file)
     course_id = create_course(parsed_file, student_id)
-    register_course_classes(parsed_file, course_id)
-    
-    
+    register_course_classes(parsed_file, course_id) >> mark_file_as_done()
+

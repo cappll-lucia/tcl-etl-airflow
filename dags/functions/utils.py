@@ -154,7 +154,7 @@ def get_course_data(df: pd.DataFrame) -> dict:
         'customer_type': customer_type,
         'taas_school': taas_school,
         'is_if': is_if,
-        'spreadsheet_name': filename
+        'spreadsheet_name': filename.replace('.xlsx', '')
     }
     print("course_data", course_data)
     return course_data
