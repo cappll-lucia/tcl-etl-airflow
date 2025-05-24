@@ -3,8 +3,8 @@ from airflow.decorators import task
 from datetime import datetime
 import pandas as pd
 from typing import List, Dict
-from functions.utils import extract_username, get_course_data, get_classes_data
-from functions.prod_db_queries import get_students_by_username, get_students_data_id_by_username, insert_student_data, insert_course_data, insert_classes_data
+from functions.utils import extract_username, get_course_data, get_classes_data, extract_student_names
+from functions.prod_db_queries import get_students_by_username, get_students_data_id_by_username, insert_student_data, insert_course_data, insert_classes_data, insert_raw_student
 from uuid import UUID
 from airflow.providers.google.cloud.hooks.gcs import GCSHook
 import io
@@ -20,7 +20,7 @@ with DAG(
     def parse_tsv_from_gcs(**context):
         bucket = context["dag_run"].conf["bucket_name"]
         object_path = context["dag_run"].conf["object_path"]
-
+        print(f"+++++ Processing gs://{bucket}/{object_path}")
         gcs_hook = GCSHook(gcp_conn_id="gcs-systems-acc")
         file_bytes = gcs_hook.download(bucket_name=bucket, object_name=object_path)
 
@@ -42,11 +42,14 @@ with DAG(
         filename_path = parsed_file[0].get('filename_path')
         username = extract_username(filename_path)
         student_id = get_students_data_id_by_username(username)
+        print("student idddd--> ", student_id)
         
         if student_id is None:
             students_df = get_students_by_username(username)
             if students_df.empty:
-                raise ValueError(f"No student found for: [ filename_path:{filename_path} | username: {username} ]")
+                df = pd.DataFrame(parsed_file)
+                first_name, last_name = extract_student_names(df)
+                student_id = insert_raw_student(username=username, first_name=first_name, last_name=last_name)
             
             else:
                 data = {
@@ -60,6 +63,10 @@ with DAG(
                     'age_group': students_df.iloc[0]['age_group'],
                 }
                 student_id = insert_student_data(data)
+        
+        if student_id is None:
+            raise ValueError(f"No student found for: [ filename_path:{filename_path} | username: {username} ]")
+
         return student_id
     
 

@@ -25,11 +25,41 @@ TAAS_SCHOOLS = [
     'UDIMA/CEF'
 ]
 
+COACHES = [
+    'Brittany - ',
+    'Travis - ',
+    'Alma - ',
+    'Katja - ',
+    'Ksenija - ',
+    'Marie - ',
+    'Maxime - ',
+    'Maxime - ',
+    'Laure - ',
+    'Velina - ',
+]
+
 def extract_username(filename: str) -> str:
     match = re.search(r'(\S+)\.xlsx$', filename)
     if match:
         return match.group(1)
     return None
+
+def extract_student_names(df: pd.DataFrame):
+    if df is None or df.empty:
+        raise ValueError("Input DataFrame cannot be empty or None")
+            
+    name = df.iloc[0]['student_name'] if 'student_name' in df.columns else None
+    if not name:
+        raise ValueError("Student name not found in DataFrame")
+    
+    name_parts = name.split()
+    if len(name_parts) < 2:
+        raise ValueError("Student name must contain at least first and last name")
+    
+    last_name = name_parts[-1]
+    first_name = ' '.join(name_parts[:-1])
+    
+    return first_name, last_name
 
 
 
@@ -40,7 +70,6 @@ def get_course_language(df: pd.DataFrame) -> str:
     if df is None or df.empty:
         raise ValueError("Input DataFrame cannot be empty or None")
         
-    # Try filename 
     try:
         if 'filename' in df.columns:
             filename = df.iloc[0]['filename']
@@ -51,7 +80,6 @@ def get_course_language(df: pd.DataFrame) -> str:
     except (KeyError, AttributeError, IndexError):
         pass
 
-    # Try material_name
     try:
         if 'material_name' in df.columns:
             material_names = df['material_name'].dropna()
@@ -81,7 +109,7 @@ def get_course_language(df: pd.DataFrame) -> str:
     except (KeyError, AttributeError):
         pass
     
-    return 'Unknown'
+    return '-'
 
 
 
@@ -97,8 +125,6 @@ def get_customer_type(filename: str) -> str:
         return 'TaaS'
     else: 
         return 'B2C'
-    
-
 
 
 def get_taas_school(filename: str) -> str:
@@ -111,6 +137,27 @@ def get_taas_school(filename: str) -> str:
     return None
 
 
+def get_company_name(filename: str)-> str:
+    """
+    Extract the company name from the filename.
+    Expected format: ...COACHNAME - COMPANY_NAME___...
+    """
+    try:
+        # Find the position after "travis - "
+        start_idx = filename.lower().find("travis - ")
+        if start_idx == -1:
+            return None
+            
+        start_idx += len("travis - ")
+        
+        end_idx = filename.find("___", start_idx)
+        if end_idx == -1:
+            return None
+
+        company_name = filename[start_idx:end_idx].strip()
+        return company_name if company_name else None
+    except Exception:
+        return None
 
         
 def is_if_course(filename: str) -> bool:
@@ -146,6 +193,14 @@ def get_course_data(df: pd.DataFrame) -> dict:
         taas_school = get_taas_school(filename.lower())
     else:
         taas_school = None
+
+    if customer_type == 'B2B' or ' - Staff___' in filename:
+        company_name = get_company_name(filename.lower())
+    else:
+        company_name = None
+
+
+
     is_if = is_if_course(filename)
     course_data = {
         'language': language,
@@ -153,6 +208,7 @@ def get_course_data(df: pd.DataFrame) -> dict:
         'credits_qty': credits_qty,
         'customer_type': customer_type,
         'taas_school': taas_school,
+        'company_name': company_name,
         'is_if': is_if,
         'spreadsheet_name': filename.replace('.xlsx', '')
     }

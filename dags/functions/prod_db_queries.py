@@ -16,25 +16,29 @@ def get_students_by_username(username: str):
 
 def get_students_data_id_by_username(username: str):
     # TODO: change to production
-    hook = PostgresHook(postgres_conn_id='dev-iboux')
+    hook = PostgresHook(postgres_conn_id='iboux-production')
     query = """
         SELECT id 
         FROM student_data
         WHERE lc_username = %s
     """
+    print(f"Searching for username: {username}")
     records = hook.get_records(query, parameters=(username,))
-    print(records)
+    print(f"Query results: {records}")
     return records[0][0] if records else None
 
 
 def insert_student_data(student_data: dict):
     # TODO: change to production
-    hook = PostgresHook(postgres_conn_id='dev-iboux')
+    hook = PostgresHook(postgres_conn_id='iboux-production')
     
-    # Convert date to proper format
     if student_data.get('student_since'):
-        student_data['student_since'] = pd.to_datetime(student_data['student_since'], format='%d-%m-%Y').strftime('%Y-%m-%d')
-    
+        try:
+            parsed_date = pd.to_datetime(student_data['student_since'], dayfirst=True, errors='raise')
+            student_data['student_since'] = parsed_date.strftime('%Y-%m-%d')
+        except Exception as e:
+            raise ValueError(f"❌ Fecha inválida para student_since: {student_data['student_since']} → {e}")
+
     query = """
         INSERT INTO student_data (
             email,
@@ -60,10 +64,30 @@ def insert_student_data(student_data: dict):
     return inserted_id
 
 
+def insert_raw_student(username: str, first_name: str, last_name: str):
+    # TODO: change to production
+    hook = PostgresHook(postgres_conn_id='iboux-production')
+    
+    query = """
+        INSERT INTO student_data (
+            first_name,
+            last_name,
+            lc_username
+        )
+        VALUES (%s, %s, %s)
+        RETURNING id
+    """
+    parameters = (first_name, last_name, username)
+
+    hook.run(query, parameters=parameters)
+    inserted_id = hook.get_first("SELECT MAX(id) FROM student_data")[0]
+    return inserted_id
+
+
 
 def insert_course_data(course_data: dict, student_id: int):
     # TODO: change to production
-    hook = PostgresHook(postgres_conn_id='dev-iboux')
+    hook = PostgresHook(postgres_conn_id='iboux-production')
     query = """
         INSERT INTO course (
             student_id, 
@@ -72,14 +96,15 @@ def insert_course_data(course_data: dict, student_id: int):
             credits_qty,
             customer_type,
             taas_school,
+            company_name,
             is_if,
             spreadsheet_name
         )
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
         RETURNING id
     """
     parameters = (student_id,) + tuple((course_data[field] for field in [
-        'language', 'class_length', 'credits_qty', 'customer_type', 'taas_school', 'is_if', 'spreadsheet_name'
+        'language', 'class_length', 'credits_qty', 'customer_type', 'taas_school', 'company_name', 'is_if', 'spreadsheet_name'
     ]))
 
     conn = hook.get_conn()
@@ -98,7 +123,7 @@ def insert_classes_data(classes_data: dict, course_id: UUID):
         print("No classes to insert")
         return
 
-    hook = PostgresHook(postgres_conn_id='dev-iboux')
+    hook = PostgresHook(postgres_conn_id='iboux-production')
 
     print(f"File total: {len(classes_data)}")
     classes_data = [
@@ -128,7 +153,7 @@ def insert_classes_data(classes_data: dict, course_id: UUID):
     print(f"course_id: {course_id}")
     print("Ejemplo fila:", classes_data[0])
 
-    hook = PostgresHook(postgres_conn_id='dev-iboux')
+    hook = PostgresHook(postgres_conn_id='iboux-production')
     hook.insert_rows(table="class", rows=values, target_fields=columns)
 
     
