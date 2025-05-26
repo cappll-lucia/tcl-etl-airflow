@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 import hashlib
 
 BUCKET_NAME = 'tcl-testing'
-PREFIX_ROUTE='test5/'
+PREFIX_ROUTE='Test-astronomer/'
 
 def generate_run_id(file_path: str) -> str:
     clean_hash = hashlib.md5(file_path.encode()).hexdigest()[:10]

@@ -155,5 +155,3 @@ def insert_classes_data(classes_data: dict, course_id: UUID):
 
     hook = PostgresHook(postgres_conn_id='iboux-production')
     hook.insert_rows(table="class", rows=values, target_fields=columns)
-
-    
